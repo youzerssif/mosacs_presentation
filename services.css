@@ -31,11 +31,13 @@
     color: greenyellow;
     
 }
+
 section h1:first-child{
     margin-top: 15%;
-    text-align: center;
     border-bottom: 2px solid greenyellow;
     width: 100px;
+    margin-left: 50%;
+    text-align: center;
 }
 .services {
     display: flex;
@@ -43,9 +45,13 @@ section h1:first-child{
 }
 .service {
     margin: 50px;
+    text-align: center;
 }
 
 .service img{
     border-radius: 100px;
     width: 100px;
 }
+/* .service h1,p {
+    text-align: left;
+} */
