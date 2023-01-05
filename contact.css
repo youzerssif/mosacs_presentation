@@ -1,4 +1,4 @@
-/* ------------------- Service ------------------- */
+/* ------------------- Contact ------------------- */
 
 .header {
     display: flex;
@@ -44,19 +44,16 @@ section h1:first-child{
     margin-left: 50%;
     text-align: center;
 }
-.services {
+
+#contact {
     display: flex;
     flex-direction: row;
 }
-.service {
-    margin: 50px;
-    text-align: center;
+
+#info {
+    margin-left: 300px;
 }
 
-.service img{
-    border-radius: 100px;
-    width: 100px;
+#forms{
+    padding-left: 300px;
 }
-/* .service h1,p {
-    text-align: left;
-} */
