@@ -85,3 +85,25 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 915px) {
+    /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+    .header h1{
+        padding: 1px;
+        border: 1px solid;
+        margin-right: 5px;
+        margin-left: 10px;
+        font-size: medium;
+    
+    }
+    
+    .menu li {
+        padding: 2px;
+        font-size: 12px;
+        
+    }
+    
+
+}
