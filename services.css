@@ -69,12 +69,20 @@ footer {
     
     
 }
+footer {
+    height: 200px;
+    background-color: rgb(203, 203, 203);
+    position: absolute;
+    width: 100%;
+    margin-top: 30%;
+    
+    
+}
 
 body{
     margin: 0;
     padding: 0;
 }
-
 
 /* MEDIA QUERIES */
 
@@ -95,7 +103,7 @@ body{
         
     }
     section h1:first-child{
-        margin-top: 30%;
+        margin-top: 20%;
         border-bottom: 2px solid greenyellow;
         width: 100px;
         margin-left: 35%;
@@ -105,4 +113,97 @@ body{
         margin: 10px;
     }
 
+}
+
+/* FOR 1024 */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 916px et 1024px */
+@media screen and (min-width: 820px) and (max-width: 1024px){
+    .header h1{
+        padding: 2px;
+        border: 2px solid;
+        margin-right: 20px;
+        margin-left: 30px;
+        font-size: larger;
+    
+    }
+    
+    .menu li {
+        padding: 4px;
+        font-size: 30px;
+        
+    }
+    section h1:first-child{
+        margin-top: 20%;
+        border-bottom: 2px solid greenyellow;
+        width: 200px;
+        margin-left: 36%;
+        text-align: center;
+    }
+    .service {
+        margin: 20px;
+    }
+}
+
+/* FOR 768-1024 */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 916px et 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .header h1{
+        padding: 2px;
+        border: 2px solid;
+        margin-right: 20px;
+        margin-left: 30px;
+        font-size: larger;
+    
+    }
+    
+    .menu li {
+        padding: 4px;
+        font-size: 30px;
+        
+    }
+    section h1:first-child{
+        margin-top: 20%;
+        border-bottom: 2px solid greenyellow;
+        width: 200px;
+        margin-left: 36%;
+        text-align: center;
+    }
+    .service {
+        margin: 20px;
+    }
+}
+
+
+/* FOR 912-1024 */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 916px et 1024px */
+@media screen and (min-width: 912px) and (max-width: 1368px){
+    /* .header h1{
+        padding: 2px;
+        border: 2px solid;
+        margin-right: 20px;
+        margin-left: 30px;
+        font-size: larger;
+    
+    }
+    
+    .menu li {
+        padding: 4px;
+        font-size: 30px;
+        
+    } */
+    section h1:first-child{
+        margin-top: 20%;
+        border-bottom: 2px solid greenyellow;
+        width: 200px;
+        margin-left: 36%;
+        text-align: center;
+    }
+    /* .service {
+        margin: 20px;
+    } */
+    footer {
+        margin-top: 40%;
+        
+        
+    }
 }

@@ -107,3 +107,7 @@ body{
     
 
 }
+
+/* FOR 1024 */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 916px et 1024px */
+@media all and (min-width: 916px) and (max-width: 1024px){}
